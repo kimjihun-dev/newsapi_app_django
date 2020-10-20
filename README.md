@@ -1,1 +1,1 @@
-"# newsapi_app_django" 
+# newsapi_app_django
