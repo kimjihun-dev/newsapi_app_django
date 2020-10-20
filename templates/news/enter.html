@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="enter">
+    <div class="news">
+        <ul>
+            {% for title, desc, url, img, pub in enterNews_list %}
+            <li>
+                <div class="item">
+                    <a href="{{ url }}">
+                        <img src="{{ img }}" alt="">
+                        <h4>{{ title }}</h4>
+                    </a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endblock %}

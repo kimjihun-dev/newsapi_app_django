@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body { box-sizing: border-box; font-family: 'NanumSquare', sans-serif; }
+a { text-decoration: none; }
+#wrap { background: #0E2F66; font-size: 14px; }
+
+/* header */
+.header { margin-bottom: 35px; }
+.header .logo a { font-family: 'Roboto', sans-serif; color: #fff; font-size: 28px; font-weight: bold; text-transform: uppercase; }
+.top_menu {  padding: 24px; display: flex; justify-content: space-between; }
+.top_menu .mBtn a { display: block; text-indent: -9999px; width: 21px; height: 21px; background: url("../images/rBtn.png") no-repeat; }
+
+/*nav swiper*/
+#nav { padding: 20px 0 0 0; height: 30px; }
+#nav ul li { text-align: center; }
+#nav ul li a { font-size: 16px; color: #fff; }
+
+/*news*/
+.news { width: 100%; }
+.news ul > li { margin-bottom: 30px; padding: 0 5%; }
+.item { width: 100%; position: relative; background-color: #000; overflow: hidden; border-radius: 50px; }
+.item a > img { max-width: 100%; width: 100%; opacity: 0.5; transition: all 0.8s; }
+.item a > img:hover { opacity: 1; transform: scale(1.1); }
+.item a > h4 {  position: absolute; left: 20px; bottom: 20px; font-size: 18px; color: #fff; font-weight: bold;  }
